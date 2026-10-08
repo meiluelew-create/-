@@ -1,0 +1,233 @@
+:root {
+    --dark: #191919;
+    --gray: #696871;
+    --red: #F97453;
+}
+*{
+    margin: 0%;
+    padding:0%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.header {
+    padding-block: 30px;
+    position: fixed;
+    width: 100%;
+    background: white;
+    z-index: 999;
+    top: 0;
+    
+   
+}
+.header__container, .hero__container{
+    max-width: 1000px;
+    margin-inline: auto;
+    
+}
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header__list {
+    display:flex;
+    list-style: none;
+    gap: 50px;
+    font-size: 10px;
+    align-items: center;
+}
+ul {
+    text-decoration: none;
+}
+.header__list-link {
+    font-family:"roboto", bold;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: px;
+    color: var(--gray);
+    transition: color 0.3;
+    padding-left: 0px;
+
+}
+.header__list-link.active {
+    color: var(--dark);
+    border-bottom: 2px solid var(--red);
+    padding-bottom: 10px;
+}
+.header__list-link:hover {
+    color: var(--dark);
+}
+.header__button {
+    font-weight: 00;
+    font-family: "roboto", bold ;
+    letter-spacing: -0.53px;
+    color: white;
+    padding: 12px 12px;
+    background-color:var(--red);
+    border-radius: 10px;
+    transition: 0.3s;
+    font-size: 15px;
+    padding-right: 0px;
+    padding-top: 1px;
+}
+.header__button:hover{
+    opacity: 80%;
+}
+a {
+    text-decoration: none;
+}
+.hero {
+    padding-block: 70px;
+}
+
+    main {
+        margin-top: 141px;
+    }
+.hero__image{
+   top: 0;
+    position: absolute;
+    right: 0;
+}
+
+.hero__title {
+    font-family: "Roboto" sans-serif;
+    letter-spacing: -1px;
+    line-height: 30px;
+    padding-left: 0px;
+    font-size: 20px;
+    
+
+
+}
+.hero__description {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: var(--gray);
+    margin-top: 20px;
+    
+}
+.hero__container {
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    top: 0;
+}
+.hero__content {
+    max-width: 480px;
+}
+.hero__uslugi {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: var(--gray);
+    margin-top: 10px;
+    
+}
+.feature__title {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    justify-content: center;
+    display: flex;
+
+    
+}
+.features__container {
+    padding-inline: 260px;
+}
+.feature__desc {
+    margin-top: 40px;
+     font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    max-width: 480px;
+}
+.info__nav {
+
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display:flex;
+    max-width: 480px;
+    
+   
+   
+}
+.info__list {
+    display:flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: 15px;
+     font-family: "Roboto", bold;
+     font-weight: 700;
+      max-width: 480px;
+      gap: 120px;
+      margin-top: 70px;
+      justify-content: center;
+    
+    }
+    .info__list-item2 {
+         margin-top: 70px;
+    display:flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: 15px;
+    align-items: center;
+     font-family: "Roboto", sans-serif;
+     
+    align-items: center;
+    }
+    .info__list2 {
+    margin-top: 0px;
+    display:flex;
+    list-style: none;
+    gap: 50px;
+    font-size: 15px;
+    align-items: center;
+     font-family: "Roboto", sans-serif;
+      max-width: 1000px;
+        flex-direction: column;
+    margin-inline: auto;
+        }
+        .price__container {
+           
+            
+            align-items: center;
+            margin-inline: auto;
+            max-width: 1000px;
+             margin-top: 70px;
+            
+   
+        }
+        .price__title, .con__title{
+             font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    justify-content: center;
+    display: flex;
+        }
+        .surge__title {
+                      font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+        }
+        .price__image {
+    
+        }
+        .con__title {
+            margin-top: 20px;
+            
+        }
+        .con__info {
+            margin-top: 30px;
+
+        }
+        .con__free {
+            margin-top: 30px;
+            
+        }
+        .con__img {
+            margin-top: 70px;
+        }
